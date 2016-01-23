@@ -1,0 +1,5 @@
+[
+  { "repo": "developmentseed/macrocosm", "branch": "develop" },
+  { "repo": "developmentseed/landsat-util", "branch": "master" },
+  { "repo": "developmentseed/work.vote" }
+]
