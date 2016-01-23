@@ -11,7 +11,8 @@ var _ = require('lodash');
 // TODO:
 // - Is console.error the most elegant way to report first errors? Can't be returned to good?
 
-var server = new Hapi.Server(+process.env.PORT, '0.0.0.0');
+var server = new Hapi.Server();
+server.connection({ port: process.env.PORT || 3000 });
 
 var parseStatus = function (data) {
   // If we can parse a GH state, return a state ID
