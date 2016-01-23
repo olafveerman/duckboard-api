@@ -1,0 +1,33 @@
+{
+  "name": "duckboard-api",
+  "version": "0.1.0",
+  "description": "A basic API that returns Github status information.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olafveerman/duckboard-api.git"
+  },
+  "author": {
+    "name": "Olaf Veerman"
+  },
+  "license": "unlicense",
+  "bugs": {
+    "url": "https://github.com/olafveerman/duckboard-api/issues"
+  },
+  "homepage": "https://github.com/olafveerman/duckboard-api",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint app/assets/scripts/**/*.js",
+    "test": "echo NO TESTS YET"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "async": "^1.5.2",
+    "boom": "^3.1.1",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "hapi": "^12.1.0",
+    "lodash": "^4.0.0",
+    "lodash.defaultsdeep": "^3.10.0",
+    "request": "^2.67.0"
+  }
+}
