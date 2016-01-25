@@ -8,9 +8,6 @@ var async = require('async');
 var fs = require('fs');
 var _ = require('lodash');
 
-// TODO:
-// - Is console.error the most elegant way to report first errors? Can't be returned to good?
-
 var server = new Hapi.Server();
 server.connection({ port: process.env.PORT || 3000 });
 
