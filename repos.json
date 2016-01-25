@@ -1,5 +1,6 @@
 [
   { "repo": "developmentseed/macrocosm", "branch": "develop" },
-  { "repo": "developmentseed/landsat-util", "branch": "master" },
+  { "repo": "developmentseed/landsat-util" },
+  { "repo": "olafveerman/duckboard-api" },
   { "repo": "developmentseed/work.vote" }
 ]

@@ -77,7 +77,6 @@ server.route({
             // This leads to a single 500 error.
             error = 'Can\'t authenticate. Are you using a valid GH token?';
             return cb(error);
-            // return reply(Boom.badImplementation(err));
           } else if (res.statusCode === 404) {
             // This shouldn't lead to an error on the API side. It will just return null
             error = 'Can\'t access the \'' + branch + '\' branch of ' + r.repo + '. Either the branch or repo doesn\'t exist, or the app doesn\'t have the right access token.';
