@@ -27,7 +27,13 @@ $ npm install
 $ node index.js
 ```
 
-Launches the server, making the API available at `http://localhost:3000/`
+Launches the server, making the API available at `http://localhost:3000/`.
 
-### License
+To fetch the status of private repositories, set a Personal Access Token of a Github account as environment variable. The account that was used to set up this token, needs to have access to the repos. For example:
+
+```
+$ GH_TOKEN=[token] node index.js
+```
+
+## License
 This software is released into the public domain using the [Unlicense](http://unlicense.org/).
